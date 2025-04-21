@@ -1,0 +1,19 @@
+{
+  "name": "ts-namespace-bundle",
+  "version": "1.0.0",
+  "description": "Namespace + Bundle Project",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "lite-server": "^2.6.1",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "undici-types": "^7.8.0",
+    "webpack": "^5.99.6",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}

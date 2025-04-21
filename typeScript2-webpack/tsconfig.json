@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",               // ES5 또는 ES6 선택 가능 (브라우저 지원 기준)
+    "module": "ES2022",            // Webpack과 함께 쓸 ES6 모듈
+    "outDir": "./dist",            // 컴파일된 JS가 저장될 디렉토리
+    "sourceMap": true,             // 소스맵 생성 (디버깅 용도)
+    "removeComments": true,        // 주석 제거
+    "strict": true,                // 엄격한 타입 검사
+    "esModuleInterop": true,       // CommonJS 모듈 호환
+    "experimentalDecorators": true, // @데코레이터 지원
+    "types": [],                   // @types 자동 포함 방지 (깨끗한 환경)
+    "lib": ["es2022", "dom"]       // `find` 등 최신 기능을 사용하려면 필요
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
