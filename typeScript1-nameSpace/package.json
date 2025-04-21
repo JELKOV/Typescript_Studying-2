@@ -1,0 +1,12 @@
+{
+  "name": "ts-namespace-bundle",
+  "version": "1.0.0",
+  "description": "Namespace + Bundle Project",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "undici-types": "^7.8.0"
+  }
+}
